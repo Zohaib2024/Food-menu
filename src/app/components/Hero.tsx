@@ -6,6 +6,14 @@ import { TiSocialFacebookCircular, TiSocialYoutubeCircular, TiSocialTwitterCircu
 const Hero = () => {
   return (
     <div className='grid lg:grid-cols-2  grid-cols-1  items-center mt-16  lg:ml-72 lg:mr-52 lg:items-center  md:mr-20 md:ml-20 sm:mr-20 sm:ml-20'>
+       <div className='text-center mt-10 block mb-10 lg:m-auto lg:hidden'>
+        <Image
+          src="/Food-hero.png"
+          width={500}
+          height={500}
+          alt="Picture of delicious food"
+        />
+      </div>
       <div className=''>
         <h1 className='text-4xl md:text-6xl font-bold text-center lg:text-start '>We provide the best food for you</h1>
         <p className='mt-4 text-gray-700 text-center lg:text-start'>
